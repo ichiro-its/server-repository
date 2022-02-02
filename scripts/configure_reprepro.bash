@@ -22,5 +22,5 @@ touch $OPTIONS
 echo "verbose" >> $OPTIONS
 echo "basedir $HOME/repository/debian" >> $OPTIONS
 
-mkdir -p "$HOME/repository/conf"
-gpg --armor --output "$HOME/repository/conf/$CODENAME.gpg.key" --export-options export-minimal --export $KEY_ID
+# mkdir -p "$HOME/repository/conf"
+# gpg --armor --output "$HOME/repository/conf/$CODENAME.gpg.key" --export-options export-minimal --export $KEY_ID
