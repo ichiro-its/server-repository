@@ -1,0 +1,9 @@
+kansei_interfaces:
+  debian: [ros-foxy-kansei-interfaces]
+  ubuntu: [ros-foxy-kansei-interfaces]
+sishen_interfaces:
+  debian: [ros-foxy-sishen-interfaces]
+  ubuntu: [ros-foxy-sishen-interfaces]
+tachimawari_interfaces:
+  debian: [ros-foxy-tachimawari-interfaces]
+  ubuntu: [ros-foxy-tachimawari-interfaces]
