@@ -23,10 +23,11 @@ uid           [ultimate] ICHIRO ITS <ichiro.its@gmail.com>
 ssb   rsa4096 2021-11-20 [E]
       B2DA782BFCA05E40FB609005A5B85CF8DCAC1E12
 ```
-The key-id will be used on next script (i.e `B2DA782BFCA05E40FB609005A5B85CF8DCAC1E12`)
+The key-id will be used on next script (i.e `B2DA782BFCA05E40FB609005A5B85CF8DCAC1E12`).
 
 The second script is `configure_reprepro.bash`.
-Run the second script and put the key-id at the first argument.
+Run the second script, put the key-id at the first argument and codename at second.
+For codename we can fill with nightly or stable.
 ```
-bash configure_reprepro.bash <key-id>
+bash configure_reprepro.bash <key-id> <codename>
 ```
