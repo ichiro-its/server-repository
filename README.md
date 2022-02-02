@@ -2,9 +2,10 @@
 
 ## Run script
 
-Run the `generate_key.bash` first:
+Run the `script.bash`, put the codename at the first argument.
+For codename we can fill with nightly or stable.
 ```
-bash generate_key.bash
+bash script.bash <codename>
 ```
 Then we must fill several input:
 1. What kind of key (select first option for RSA and RSA)
@@ -13,21 +14,6 @@ Then we must fill several input:
 4. Real Name (fill with ICHIRO ITS)
 5. Email Address (fill with ichiro.its@gmail.com)
 6. Comment (optional - whatever)
-7. Passphrase (password for the gpg key - skip)
+7. Passphrase (password for the gpg key - skip with clicking Ok and Confirmation without passphrase twice)
 
-After that, we will get output like this in terminal:
-```
-sec   rsa4096 2021-11-20 [SC]
-      248D9D75677BFE82FA9FB1B86F38B9095A07C86B
-uid           [ultimate] ICHIRO ITS <ichiro.its@gmail.com>
-ssb   rsa4096 2021-11-20 [E]
-      B2DA782BFCA05E40FB609005A5B85CF8DCAC1E12
-```
-The key-id will be used on next script (i.e `B2DA782BFCA05E40FB609005A5B85CF8DCAC1E12`).
-
-The second script is `configure_reprepro.bash`.
-Run the second script, put the key-id at the first argument and codename at second.
-For codename we can fill with nightly or stable.
-```
-bash configure_reprepro.bash <key-id> <codename>
-```
+Finally, the repository folder will be created in the home directory. Include any debian package first, before using the debian repository.
