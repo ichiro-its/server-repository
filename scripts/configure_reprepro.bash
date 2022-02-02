@@ -1,12 +1,12 @@
 #!/bin/bash
 
-KEY_ID="$1"
-CODENAME="$2"
+CODENAME="$1"
+KEY_ID=$(gpg --list-secret-key --with-subkey-fingerprint | tail -n2 | awk 'NR==1{print $1}')
 DIR="$HOME/repository/debian/conf"
 DISTRIBUTIONS="$DIR/distributions"
 OPTIONS="$DIR/options"
 
-sudo apt-get install reprepro
+sudo apt-get install reprepro -y
 mkdir -p $DIR
 
 touch $DISTRIBUTIONS
