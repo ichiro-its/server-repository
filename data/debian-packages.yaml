@@ -19,12 +19,15 @@ keisan:
 ninshiki:
   debian: [ros-foxy-ninshiki]
   ubuntu: [ros-foxy-ninshiki]
-ninshiki_yolo:
-  debian: [ros-foxy-ninshiki-yolo]
-  ubuntu: [ros-foxy-ninshiki-yolo]
+ninshiki_interfaces:
+  debian: [ros-foxy-ninshiki-interfaces]
+  ubuntu: [ros-foxy-ninshiki-interfaces]
 ninshiki_opencv:
   debian: [ros-foxy-ninshiki-opencv]
   ubuntu: [ros-foxy-ninshiki-opencv]
+ninshiki_yolo:
+  debian: [ros-foxy-ninshiki-yolo]
+  ubuntu: [ros-foxy-ninshiki-yolo]
 shisen_cpp:
   debian: [ros-foxy-shisen-cpp]
   ubuntu: [ros-foxy-shisen-cpp]
