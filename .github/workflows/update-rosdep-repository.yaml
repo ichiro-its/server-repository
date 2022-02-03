@@ -1,0 +1,34 @@
+name: Update Rosdep list on Debian Repository
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+jobs:
+  update-rosdep-repository:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v2.3.4
+
+      - name: Copy rosdep source list into the server
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          port: ${{ secrets.SSH_PORT }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASS }}
+          source: "data/debian-packages.yaml"
+          target: "~/repository/rosdep/"
+
+      - name: Change current config to be newer
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          port: ${{ secrets.SSH_PORT }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASS }}
+          script: |
+            cd ~/repository/rosdep
+            rm ./debian-packages.yaml
+            cp ./data/debian-packages.yaml ./
+            rm -rf ./data
