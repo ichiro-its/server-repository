@@ -25,12 +25,12 @@ ninshiki_yolo:
 ninshiki_opencv:
   debian: [ros-foxy-ninshiki-opencv]
   ubuntu: [ros-foxy-ninshiki-opencv]
-sishen_cpp:
-  debian: [ros-foxy-sishen-cpp]
-  ubuntu: [ros-foxy-sishen-cpp]
-sishen_interfaces:
-  debian: [ros-foxy-sishen-interfaces]
-  ubuntu: [ros-foxy-sishen-interfaces]
+shisen_cpp:
+  debian: [ros-foxy-shisen-cpp]
+  ubuntu: [ros-foxy-shisen-cpp]
+shisen_interfaces:
+  debian: [ros-foxy-shisen-interfaces]
+  ubuntu: [ros-foxy-shisen-interfaces]
 suiryoku:
   debian: [ros-foxy-suiryoku]
   ubuntu: [ros-foxy-suiryoku]
