@@ -1,9 +1,42 @@
+akushon:
+  debian: [ros-foxy-akushon]
+  ubuntu: [ros-foxy-akushon]
+aruku:
+  debian: [ros-foxy-aruku]
+  ubuntu: [ros-foxy-aruku]
+atama:
+  debian: [ros-foxy-atama]
+  ubuntu: [ros-foxy-atama]
+kansei:
+  debian: [ros-foxy-kansei]
+  ubuntu: [ros-foxy-kansei]
 kansei_interfaces:
   debian: [ros-foxy-kansei-interfaces]
   ubuntu: [ros-foxy-kansei-interfaces]
+keisan:
+  debian: [ros-foxy-keisan]
+  ubuntu: [ros-foxy-keisan]
+ninshiki:
+  debian: [ros-foxy-ninshiki]
+  ubuntu: [ros-foxy-ninshiki]
+ninshiki_yolo:
+  debian: [ros-foxy-ninshiki-yolo]
+  ubuntu: [ros-foxy-ninshiki-yolo]
+ninshiki_opencv:
+  debian: [ros-foxy-ninshiki-opencv]
+  ubuntu: [ros-foxy-ninshiki-opencv]
+sishen_cpp:
+  debian: [ros-foxy-sishen-cpp]
+  ubuntu: [ros-foxy-sishen-cpp]
 sishen_interfaces:
   debian: [ros-foxy-sishen-interfaces]
   ubuntu: [ros-foxy-sishen-interfaces]
+suiryoku:
+  debian: [ros-foxy-suiryoku]
+  ubuntu: [ros-foxy-suiryoku]
+tachimawari:
+  debian: [ros-foxy-tachimawari]
+  ubuntu: [ros-foxy-tachimawari]
 tachimawari_interfaces:
   debian: [ros-foxy-tachimawari-interfaces]
   ubuntu: [ros-foxy-tachimawari-interfaces]
