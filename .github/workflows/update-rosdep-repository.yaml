@@ -1,7 +1,7 @@
 name: Update Rosdep list on Debian Repository
 on:
   workflow_dispatch:
-  pull_request:
+  push:
     branches: [master]
 jobs:
   update-rosdep-repository:
