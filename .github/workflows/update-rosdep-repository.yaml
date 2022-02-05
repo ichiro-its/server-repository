@@ -17,8 +17,8 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASS }}
-          source: "data/debian-packages.yaml"
-          target: "~/repository/rosdep/"
+          source: "data/packages.yaml"
+          target: "${{ secrets.SERVER_REPO_DIR }}/rosdep/"
 
       - name: Change current config to be newer
         uses: appleboy/ssh-action@master
@@ -28,7 +28,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASS }}
           script: |
-            cd ~/repository/rosdep
-            rm ./debian-packages.yaml
-            cp ./data/debian-packages.yaml ./
+            cd ${{ secrets.SERVER_REPO_DIR }}/rosdep
+            rm ./packages.yaml
+            cp ./data/packages.yaml ./
             rm -rf ./data

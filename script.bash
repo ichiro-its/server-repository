@@ -1,7 +1,7 @@
 #!/bin/bash
 
-CODENAME="$1"
+DIR="/var/www/repository.ichiro-its.org"
 
-bash ./scripts/generate_key.bash
-bash ./scripts/configure_reprepro.bash "$CODENAME"
-bash ./scripts/include-scripts.bash
+bash ./scripts/generate-key.bash
+bash ./scripts/configure-reprepro.bash "$DIR"
+bash ./scripts/include-scripts.bash "$DIR"

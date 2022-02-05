@@ -2,10 +2,9 @@
 
 ## Run script
 
-Run the `script.bash`, put the codename at the first argument.
-For codename we can fill with nightly or stable.
+Run the `script.bash`.
 ```
-bash script.bash <codename>
+bash script.bash
 ```
 Then we must fill several input:
 1. What kind of key (select first option for RSA and RSA)
