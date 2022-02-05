@@ -1,0 +1,34 @@
+#!/bin/bash
+
+BASE_DIR="$1"
+DIR="$BASE_DIR/debian/conf"
+KEY_ID=$(gpg --list-secret-key --with-subkey-fingerprint | tail -n2 | awk 'NR==1{print $1}')
+
+sudo apt-get install reprepro -y
+mkdir -p $DIR
+
+cat > "$DIR/distributions" <<EOL
+Origin: repository.ichiro-its.org
+Label: repository.ichiro-its.org
+Codename: nightly
+Architectures: amd64
+Components: main
+Description: Unstable ROS2 Debian Package Repository
+SignWith: $KEY_ID
+
+Origin: repository.ichiro-its.org
+Label: repository.ichiro-its.org
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Stable ROS2 Debian Package Repository
+SignWith: $KEY_ID
+EOL
+
+cat > "$DIR/options" <<EOL
+verbose
+basedir $BASE_DIR/debian
+EOL
+
+mkdir -p "$BASE_DIR/conf"
+gpg --armor --output "$BASE_DIR/conf/ichiro.gpg.key" --export-options export-minimal --export $KEY_ID

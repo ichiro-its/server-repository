@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DEBIAN_DIR="$HOME/repository/debian"
-ROSDEP_DIR="$HOME/repository/rosdep"
+DEBIAN_DIR="$1/debian"
+ROSDEP_DIR="$1/rosdep"
 
 cp ./scripts/debian/*.bash $DEBIAN_DIR
 

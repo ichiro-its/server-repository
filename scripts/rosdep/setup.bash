@@ -8,4 +8,4 @@ if [ ! -d "$DIR" ]; then
   sudo mkdir -p "$DIR"
 fi
 
-sudo sh -c 'echo "yaml https://repository.ichiro-its.org/rosdep/debian-packages.yaml" > /etc/ros/rosdep/sources.list.d/ichiro-its-packages.list'
+sudo sh -c 'echo "yaml https://repository.ichiro-its.org/rosdep/packages.yaml" > /etc/ros/rosdep/sources.list.d/ichiro.list'
