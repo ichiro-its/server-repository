@@ -1,6 +1,9 @@
 akushon:
   debian: [ros-foxy-akushon]
   ubuntu: [ros-foxy-akushon]
+akushon_interfaces:
+  debian: [ros-foxy-akushon-interfaces]
+  ubuntu: [ros-foxy-akushon-interfaces]
 aruku:
   debian: [ros-foxy-aruku]
   ubuntu: [ros-foxy-aruku]
