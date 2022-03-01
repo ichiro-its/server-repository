@@ -10,6 +10,9 @@ aruku:
 atama:
   debian: [ros-foxy-atama]
   ubuntu: [ros-foxy-atama]
+atama_interfaces:
+  debian: [ros-foxy-atama-interfaces]
+  ubuntu: [ros-foxy-atama-interfaces]
 kansei:
   debian: [ros-foxy-kansei]
   ubuntu: [ros-foxy-kansei]
