@@ -7,6 +7,9 @@ akushon_interfaces:
 aruku:
   debian: [ros-foxy-aruku]
   ubuntu: [ros-foxy-aruku]
+aruku_interfaces:
+  debian: [ros-foxy-aruku-interfaces]
+  ubuntu: [ros-foxy-aruku-interfaces]
 atama:
   debian: [ros-foxy-atama]
   ubuntu: [ros-foxy-atama]
