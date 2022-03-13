@@ -31,9 +31,9 @@ ninshiki_interfaces:
 ninshiki_opencv:
   debian: [ros-foxy-ninshiki-opencv]
   ubuntu: [ros-foxy-ninshiki-opencv]
-ninshiki_yolo:
-  debian: [ros-foxy-ninshiki-yolo]
-  ubuntu: [ros-foxy-ninshiki-yolo]
+ninshiki_py:
+  debian: [ros-foxy-ninshiki-py]
+  ubuntu: [ros-foxy-ninshiki-py]
 shisen_cpp:
   debian: [ros-foxy-shisen-cpp]
   ubuntu: [ros-foxy-shisen-cpp]
