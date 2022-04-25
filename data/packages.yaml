@@ -46,6 +46,9 @@ shisen_interfaces:
 suiryoku:
   debian: [ros-foxy-suiryoku]
   ubuntu: [ros-foxy-suiryoku]
+suiryoku_interfaces:
+  debian: [ros-foxy-suiryoku-interfaces]
+  ubuntu: [ros-foxy-suiryoku-interfaces]
 tachimawari:
   debian: [ros-foxy-tachimawari]
   ubuntu: [ros-foxy-tachimawari]
