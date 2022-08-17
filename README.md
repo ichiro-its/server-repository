@@ -18,4 +18,4 @@ Then we must fill several input:
 6. Comment (optional - whatever)
 7. Passphrase (password for the gpg key - skip with clicking Ok and Confirmation without passphrase twice)
 
-Finally, the repository folder will be created in the home directory. Include any debian package first, before using the debian repository.
+Finally, the repository folder will be created in the target directory. Include any debian package first, before using the debian repository.
