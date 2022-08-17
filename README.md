@@ -1,10 +1,13 @@
 # server-repository
 
+## Requirement
+The script provides web server setup using nginx through docker. However, that is an option that could be chosen when running the script. So, if you decide to use docker instead of the native setup on the server (install nginx), the server must be installed with `docker`.
+
 ## Run script
 
 Run the `script.bash`.
 ```
-bash script.bash
+bash script.bash [target directory] [domain]
 ```
 Then we must fill several input:
 1. What kind of key (select first option for RSA and RSA)
