@@ -16,5 +16,5 @@ DIR="$1"
 DOMAIN="$2"
 
 bash ./scripts/generate-key.bash
-bash ./scripts/configure-reprepro.bash "$DIR"
-bash ./scripts/include-scripts.bash "$DIR" "$DOMAIN"
+bash ./scripts/configure-reprepro.bash "$DIR" "$DOMAIN"
+bash ./scripts/generate-scripts.bash "$DIR" "$DOMAIN"
