@@ -1,6 +1,10 @@
 #!/bin/bash
 
-[ -z "$1" ] && printf "Please, specify the target directory!\nUsage: bash script.sh [target directory]"
+if [ -z "$1" ]
+then
+  printf "Please, specify the target directory!\nUsage: bash script.sh [target directory]\n"
+  exit 1
+fi
 
 DIR="$1"
 
