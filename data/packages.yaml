@@ -25,6 +25,12 @@ kansei_interfaces:
 keisan:
   debian: [ros-foxy-keisan]
   ubuntu: [ros-foxy-keisan]
+kiroku:
+  debian: [ros-foxy-kiroku]
+  ubuntu: [ros-foxy-kiroku]
+kiroku_interfaces:
+  debian: [ros-foxy-kiroku-interfaces]
+  ubuntu: [ros-foxy-kiroku-interfaces]
 ninshiki:
   debian: [ros-foxy-ninshiki]
   ubuntu: [ros-foxy-ninshiki]
