@@ -1,63 +1,63 @@
 akushon:
-  debian: [ros-foxy-akushon]
-  ubuntu: [ros-foxy-akushon]
+  debian: [ros-rolling-akushon]
+  ubuntu: [ros-rolling-akushon]
 akushon_interfaces:
-  debian: [ros-foxy-akushon-interfaces]
-  ubuntu: [ros-foxy-akushon-interfaces]
+  debian: [ros-rolling-akushon-interfaces]
+  ubuntu: [ros-rolling-akushon-interfaces]
 aruku:
-  debian: [ros-foxy-aruku]
-  ubuntu: [ros-foxy-aruku]
+  debian: [ros-rolling-aruku]
+  ubuntu: [ros-rolling-aruku]
 aruku_interfaces:
-  debian: [ros-foxy-aruku-interfaces]
-  ubuntu: [ros-foxy-aruku-interfaces]
+  debian: [ros-rolling-aruku-interfaces]
+  ubuntu: [ros-rolling-aruku-interfaces]
 atama:
-  debian: [ros-foxy-atama]
-  ubuntu: [ros-foxy-atama]
+  debian: [ros-rolling-atama]
+  ubuntu: [ros-rolling-atama]
 atama_interfaces:
-  debian: [ros-foxy-atama-interfaces]
-  ubuntu: [ros-foxy-atama-interfaces]
+  debian: [ros-rolling-atama-interfaces]
+  ubuntu: [ros-rolling-atama-interfaces]
 kansei:
-  debian: [ros-foxy-kansei]
-  ubuntu: [ros-foxy-kansei]
+  debian: [ros-rolling-kansei]
+  ubuntu: [ros-rolling-kansei]
 kansei_interfaces:
-  debian: [ros-foxy-kansei-interfaces]
-  ubuntu: [ros-foxy-kansei-interfaces]
+  debian: [ros-rolling-kansei-interfaces]
+  ubuntu: [ros-rolling-kansei-interfaces]
 keisan:
-  debian: [ros-foxy-keisan]
-  ubuntu: [ros-foxy-keisan]
+  debian: [ros-rolling-keisan]
+  ubuntu: [ros-rolling-keisan]
 kiroku:
-  debian: [ros-foxy-kiroku]
-  ubuntu: [ros-foxy-kiroku]
+  debian: [ros-rolling-kiroku]
+  ubuntu: [ros-rolling-kiroku]
 kiroku_interfaces:
-  debian: [ros-foxy-kiroku-interfaces]
-  ubuntu: [ros-foxy-kiroku-interfaces]
-ninshiki:
-  debian: [ros-foxy-ninshiki]
-  ubuntu: [ros-foxy-ninshiki]
+  debian: [ros-rolling-kiroku-interfaces]
+  ubuntu: [ros-rolling-kiroku-interfaces]
+ninshiki_cpp:
+  debian: [ros-rolling-ninshiki_cpp]
+  ubuntu: [ros-rolling-ninshiki_cpp]
 ninshiki_interfaces:
-  debian: [ros-foxy-ninshiki-interfaces]
-  ubuntu: [ros-foxy-ninshiki-interfaces]
+  debian: [ros-rolling-ninshiki-interfaces]
+  ubuntu: [ros-rolling-ninshiki-interfaces]
 ninshiki_opencv:
-  debian: [ros-foxy-ninshiki-opencv]
-  ubuntu: [ros-foxy-ninshiki-opencv]
+  debian: [ros-rolling-ninshiki-opencv]
+  ubuntu: [ros-rolling-ninshiki-opencv]
 ninshiki_py:
-  debian: [ros-foxy-ninshiki-py]
-  ubuntu: [ros-foxy-ninshiki-py]
+  debian: [ros-rolling-ninshiki-py]
+  ubuntu: [ros-rolling-ninshiki-py]
 shisen_cpp:
-  debian: [ros-foxy-shisen-cpp]
-  ubuntu: [ros-foxy-shisen-cpp]
+  debian: [ros-rolling-shisen-cpp]
+  ubuntu: [ros-rolling-shisen-cpp]
 shisen_interfaces:
-  debian: [ros-foxy-shisen-interfaces]
-  ubuntu: [ros-foxy-shisen-interfaces]
+  debian: [ros-rolling-shisen-interfaces]
+  ubuntu: [ros-rolling-shisen-interfaces]
 suiryoku:
-  debian: [ros-foxy-suiryoku]
-  ubuntu: [ros-foxy-suiryoku]
+  debian: [ros-rolling-suiryoku]
+  ubuntu: [ros-rolling-suiryoku]
 suiryoku_interfaces:
-  debian: [ros-foxy-suiryoku-interfaces]
-  ubuntu: [ros-foxy-suiryoku-interfaces]
+  debian: [ros-rolling-suiryoku-interfaces]
+  ubuntu: [ros-rolling-suiryoku-interfaces]
 tachimawari:
-  debian: [ros-foxy-tachimawari]
-  ubuntu: [ros-foxy-tachimawari]
+  debian: [ros-rolling-tachimawari]
+  ubuntu: [ros-rolling-tachimawari]
 tachimawari_interfaces:
-  debian: [ros-foxy-tachimawari-interfaces]
-  ubuntu: [ros-foxy-tachimawari-interfaces]
+  debian: [ros-rolling-tachimawari-interfaces]
+  ubuntu: [ros-rolling-tachimawari-interfaces]
